@@ -183,13 +183,14 @@ header nav a {
   line-height: normal;
 }
 
+
 .container-form {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
   row-gap: 22px;
-  height: 516px;
-  margin: 0;
+  height: 100%;
+  margin-bottom: 8px;
   padding: 0;
   min-width: 100%;
   align-items: center;
