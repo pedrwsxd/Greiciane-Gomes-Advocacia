@@ -4,29 +4,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>Greiciane Gomes</title>
 </head>
+    
 
 <body>
     <section id="header">
         <div class="header">
-            <header>
+            <div>
+            <div class="btn-computer">
                 <div class="logo-header">
                     <img src="assets/img/Ouro 1.png" alt="Logo da Greiciane Gomes Advocacia">
                 </div>
-                <div class="nav-header">
+                
+                <div class="nav-computer">                   
                     <nav> 
-                        <a href="">Home</a>
-                        <a href="">Especialidades </a> 
-                        <a href="">Escritório</a>
-                        <a href="">Sobre</a> 
+                        <ul>
+                            <li><a href="">Home</a></li>
+                            <li><a href="">Especialidades </a></li> 
+                            <li><a href="">Escritório</a></li>                           
+                            <li><a href="">Sobre</a></li> 
+                        </ul>
                     </nav>
                 </div>
-                    <div class="toggle">
-                        <img src="assets/img/menu.svg" alt="menu" height="40" width="40">
+            </div>  
+                    
+            
+            
+            <div class="mobile">
+                <div class="logo-header">
+                    <img src="assets/img/Ouro 1.png" alt="Logo da Greiciane Gomes Advocacia">
+                </div>
+                
+                <div class="btn-abrir toggle" id="abrir-menu">
+                    <img src="assets/img/menu.svg" alt="Botão de abrir o menu" height="60" width="70">                    
+                </div>
+            </div>    
+            
+            <div class="btn-mobile" id="fechar-menu">
+                    <div class="btn-fechar" id="botão-fechar">                           
+                        <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor" class="bi bi-x-circle" viewBox="0 0 16 16">
+                            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"/>
+                            <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708"/>
+                        </svg>
                     </div>
+
+                    <nav> 
+                        <ul>
+                            <li><a href="">Home</a></li>
+                            <li><a href="">Especialidades</a></li> 
+                            <li><a href="">Escritório</a></li>                           
+                            <li><a href="">Sobre</a></li> 
+                        </ul>
+                    </nav>
+                    
+            </div> 
+
+                
                 </div>
             </header>
     </section>
@@ -40,12 +76,12 @@
             </div>
         </div>
     </section>
-    <section id="lista">
-        <div class="container-list">
-            <div class="fora-list">
+    <section id="lista" >
+        <div class="container-list" >
+            <div class="fora-list" data-aos="fade-up">
                 <h2>Áreas de atuação</h2>
             </div>
-            <div class="card card-list1">
+            <div class="card card-list1" data-aos="fade-up">
                 <div class="img-list1">
                     <img src="assets/img/court.png" alt="Court">
                 </div>                
@@ -56,7 +92,7 @@
                         <p>O Direito Civil é uma área abrangente que regula as...</p>
                     </div>
             </div>
-            <div class="card card-list2">
+            <div class="card card-list2" data-aos="fade-left">
                 <div class="img-list1">
                     <img src="assets/img/balança.png" alt="Balança">
                 </div>
@@ -67,7 +103,7 @@
                         <p>Direito previdenciário cuida dos benefícios e proteções...</p>
                     </div>
             </div>
-            <div class="card card-list3">
+            <div class="card card-list3" data-aos="fade-right">
                 <div class="img-list1">
                     <img src="assets/img/maleta.png" alt="Maleta">
                 </div>
@@ -78,7 +114,7 @@
                         <p>Direito trabalhista são as leis que protegem os direitos do tra...</p>
                     </div>
             </div>
-            <div class="card card-list4">
+            <div class="card card-list4" data-aos="fade-up">
                 <div class="img-list1">
                     <img src="assets/img/carteira-motorista.png" alt="Maleta">
                 </div>
@@ -93,7 +129,7 @@
 
     </section>
     <section class="formulario">
-        <div class="container-form">
+        <div class="container-form" data-aos="fade-up">
             <h2>ENTRE EM CONTATO</h2>
             <h1>Como podemos ajudar?</h1>
             <p>Preencha um formulário abaixo para  receber o contato de um especialista:</p>
@@ -132,6 +168,11 @@
         <p>© Pedro Henrick
         <a href="pedrwsxd@gmail.com">| Pedrwsxd@gmail.com</a></p>
       </footer>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+      <script src="assets/js/index.js"></script>
+
+    
 </body>
 
 </html>

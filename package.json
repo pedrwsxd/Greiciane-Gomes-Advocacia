@@ -1,0 +1,15 @@
+{
+  "name": "greiciane-gomes-advocacia",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pedro Henrick",
+  "license": "ISC",
+  "dependencies": {
+    "aos": "^2.3.4"
+  }
+}
